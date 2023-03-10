@@ -1,1 +1,43 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  --accent-color: #ffa600;
+  --main-bg-color: #3d3d3d;
+}
+
+body {
+  color: var(--accent-color);
+  background-color: var(--main-bg-color);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding: 0 20px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style: circle;
+}
+
+a {
+  color: rgb(0, 219, 219);
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 700ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
