@@ -1,3 +1,23 @@
 .callback__list {
   margin-bottom: 30px;
 }
+
+.button-js-handler {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: var(--accent-color);
+  background-color: grey;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: background-color 250ms ease;
+  transition: color 250ms ease;
+
+  &:hover {
+    background-color: chocolate;
+    color: beige;
+  }
+}
