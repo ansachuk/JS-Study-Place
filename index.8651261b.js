@@ -1,0 +1,2 @@
+const t=()=>{const t=Number(prompt("How many minutes you have?")),e=Math.floor(t/60);return` You have ${Math.floor(e/24)} days, ${e%24} hours, ${t%60} minutes.`};document.querySelector("main").addEventListener("click",(e=>{if("BUTTON"===e.target.nodeName&&e.target.classList.contains("min-to-d")){document.querySelector(".min-to-d__par").textContent=t()}}));
+//# sourceMappingURL=index.8651261b.js.map
