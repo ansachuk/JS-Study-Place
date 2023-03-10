@@ -1,13 +1,11 @@
 header {
   border-bottom: 3px solid var(--accent-color);
-}
 
-header > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  /* outline: 1px solid tomato; */
+  & > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .container {
@@ -35,10 +33,10 @@ header > .container {
 
   cursor: pointer;
   transition: color 250ms ease;
-}
 
-.nav__btn:hover {
-  color: teal;
+  &:hover {
+    color: teal;
+  }
 }
 
 .logo__icon,
@@ -80,10 +78,10 @@ header > .container {
   width: calc((100% - 40px) / 3);
 
   border-radius: 5px;
-}
 
-.product__item--img {
-  margin-bottom: 15px;
+  &--img {
+    margin-bottom: 15px;
+  }
 }
 
 .product__item--title {
@@ -116,10 +114,10 @@ header > .container {
   border: none;
   border-radius: 50%;
   background-color: var(--accent-color);
-}
 
-.product__item--btn:hover {
-  background-color: #fff;
+  &:hover {
+    background-color: #fff;
+  }
 }
 
 .shop__list {
@@ -128,9 +126,9 @@ header > .container {
 
 .shop__item {
   color: rgb(0, 219, 219);
-}
 
-.shop__item:hover {
-  color: teal;
-  cursor: pointer;
+  &:hover {
+    color: teal;
+    cursor: pointer;
+  }
 }
