@@ -121,3 +121,16 @@ header > .container {
 .product__item--btn:hover {
   background-color: #fff;
 }
+
+.shop__list {
+  list-style: square;
+}
+
+.shop__item {
+  color: rgb(0, 219, 219);
+}
+
+.shop__item:hover {
+  color: teal;
+  cursor: pointer;
+}

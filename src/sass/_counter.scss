@@ -45,3 +45,47 @@
   margin-top: 7px;
   display: inline-block;
 }
+
+.counter__list {
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+  background-color: #fff;
+
+  margin: 150px auto;
+  padding: 0;
+
+  width: 500px;
+  height: 100px;
+}
+
+.counter__item {
+  font-size: 40px;
+  color: darkolivegreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 85px;
+}
+
+.operator {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+
+  transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.operator:hover {
+  color: coral;
+}
+
+.number {
+  border-right: 1px solid rgb(187, 187, 187);
+  border-left: 1px solid rgb(187, 187, 187);
+}

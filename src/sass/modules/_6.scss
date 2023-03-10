@@ -1,0 +1,15 @@
+.dom__image {
+  width: 400px;
+}
+
+.log-item {
+  position: relative;
+  padding: 8px;
+  border: 1px dashed #2a2a2a;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.log-list li:not(:last-child) {
+  margin-bottom: 4px;
+}
