@@ -1,2 +1,0 @@
-document.querySelector("main").addEventListener("click",(function(t){var e,o;"BUTTON"===t.target.nodeName&&t.target.classList.contains("min-to-d")&&(document.querySelector(".min-to-d__par").textContent=(e=Number(prompt("How many minutes you have?")),o=Math.floor(e/60)," You have ".concat(Math.floor(o/24)," days, ").concat(o%24," hours, ").concat(e%60," minutes.")))}));
-//# sourceMappingURL=index.ad029b05.js.map
