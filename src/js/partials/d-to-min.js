@@ -1,4 +1,4 @@
-export const transformDaysToMinute = function () {
+export const transformDaysToMinute = () => {
   const days = Number(prompt('How many days?'));
   const hours = Number(prompt('How many hours?'));
   const minutes = Number(prompt('How many minutes?'));

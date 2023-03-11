@@ -1,4 +1,4 @@
-export const calculateClientsInHotel = function () {
+export const calculateClientsInHotel = () => {
   let clientCounter = 56;
   const maxClients = 70;
   while (clientCounter < maxClients) {
