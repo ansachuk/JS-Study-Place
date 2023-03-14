@@ -4,6 +4,7 @@ import { calculateClientsInHotel } from './js/partials/while';
 import { checkingPassword } from './js/partials/do-while';
 import { sumOfAllNumbers } from './js/partials/for';
 import { reversCase } from './js/partials/arr_methods';
+import { sumOfArray, numbers } from './js/partials/for-of';
 
 const main = document.querySelector('main');
 
@@ -39,6 +40,11 @@ const scriptsListClickHandler = e => {
   if (e.target.classList.contains('arrays-methods_1')) {
     const output = document.querySelector('.arrays-methods_1__output');
     output.textContent = reversCase();
+  }
+
+  if (e.target.classList.contains('for-of')) {
+    const output = document.querySelector('.for-of__output');
+    output.textContent = sumOfArray(numbers);
   }
 };
 main.addEventListener('click', scriptsListClickHandler);
