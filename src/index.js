@@ -5,7 +5,7 @@ import { checkingPassword } from './js/partials/do-while';
 import { sumOfAllNumbers } from './js/partials/for';
 import { reversCase } from './js/partials/arr_methods';
 import { sumOfArray, numbers } from './js/partials/for-of';
-import { multiply1 } from './js/partials/functions';
+import { multiply } from './js/partials/functions';
 
 const main = document.querySelector('main');
 
@@ -50,7 +50,7 @@ const scriptsListClickHandler = e => {
 
   if (e.target.classList.contains('functions')) {
     const output = document.querySelector('.functions__output');
-    output.textContent = multiply1(3, 7, 9);
+    output.textContent = multiply(3, 7, 9);
   }
 };
 main.addEventListener('click', scriptsListClickHandler);
