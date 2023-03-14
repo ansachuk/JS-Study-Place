@@ -3,6 +3,7 @@ import { transformDaysToMinute } from './js/partials/d-to-min';
 import { calculateClientsInHotel } from './js/partials/while';
 import { checkingPassword } from './js/partials/do-while';
 import { sumOfAllNumbers } from './js/partials/for';
+import { reversCase } from './js/partials/arr_methods';
 
 const main = document.querySelector('main');
 
@@ -33,6 +34,11 @@ const scriptsListClickHandler = e => {
   if (e.target.classList.contains('for')) {
     const output = document.querySelector('.for__output');
     output.textContent = sumOfAllNumbers();
+  }
+
+  if (e.target.classList.contains('arrays-methods_1')) {
+    const output = document.querySelector('.arrays-methods_1__output');
+    output.textContent = reversCase();
   }
 };
 main.addEventListener('click', scriptsListClickHandler);
