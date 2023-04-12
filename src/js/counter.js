@@ -4,9 +4,9 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const plus = document.querySelector('.plus');
-const number = document.querySelector('.number');
-const minus = document.querySelector('.minus');
+const plus = document.querySelector(".plus");
+const number = document.querySelector(".number");
+const minus = document.querySelector(".minus");
 
 const counter = {
   value: 0,
@@ -20,7 +20,7 @@ const counter = {
   },
 };
 
-minus.addEventListener('click', () => {
+minus.addEventListener("click", () => {
   if (counter.value) {
     counter.dec();
 
@@ -32,7 +32,7 @@ minus.addEventListener('click', () => {
   }
 });
 
-plus.addEventListener('click', () => {
+plus.addEventListener("click", () => {
   counter.inc();
 
   const currentColor = getRandomHexColor();
